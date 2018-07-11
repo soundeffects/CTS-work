@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
 import Card from './card';
 
 class App extends React.Component {
@@ -11,4 +12,4 @@ class App extends React.Component {
   }
 }
 
-React.render(<App/>, document.getElementById('app'));
+ReactDOM.render(<App/>, document.getElementById('app'));

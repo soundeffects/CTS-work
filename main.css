@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  display: inline;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#back {
+  height: 40vh;
+  background: #d0dbef;
+  -webkit-clip-path: polygon(0 40vh, 100vw 20vh, 100vw 0, 0 0);
+  clip-path: polygon(0 40vh,100vw 20vh,100vw 0, 0 0);
+  z-index: 1;
+}
+
+#front {
+  height: 38vh;
+  background: #dbe8ff;
+  -webkit-clip-path: polygon(0 38vh, 100vw 18vh, 100vw 0, 0 0);
+  clip-path: polygon(0 38vh,100vw 18vh,100vw 0, 0 0);
+  z-index: 1;
+}
+
+
+.app-wrapper {
+  background: white;
+  padding: 12px;
+  margin: 12px;
+  margin-top: 60px;
+  border-radius: 6px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 4px #888888;
+  width: 54em;
+}
+
+.subheader {
+  text-align: right;
+  font-size: 22px;
+  font-weight: lighter;
+  color: #aaa;
+  margin-left: 4px;
+  margin-right: 26px;
+}
+
+li {
+  margin-left: 16px;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: 3fr 1fr;
+  justify-items: center;
+}
+
+.inputs {
+  padding: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 30px;
+  justify-items: center;
+  margin: 16px 0;
+}
+
+input {
+  width: 12em;
+  border: none;
+  border-bottom: 1px solid gray;
+  transition: all 0.1s;
+  font-size: 18px;
+  padding-left: 6px;
+  padding-bottom: 3px;
+}
+
+input:focus {
+  outline: 0;
+  border-bottom: 1px solid #9fc0f9;
+}
+
+label {
+  font-weight: lighter;
+  font-size: 14px;
+  color: gray;
+  margin-left: 6px;
+}
+
+button {
+  height: 3em;
+  padding: 10px;
+  text-align: center;
+  border: none;
+  box-shadow: 0 1px 2px #888888;
+  transition: all 0.1s;
+}
+
+button:hover {
+  background: #dbe8ff;
+  box-shadow: 0 1px 2px #80a0f9;
+}
+
+button:focus {
+  outline: 0;
+}
+
+p {
+  margin: 24px;
+}
+
