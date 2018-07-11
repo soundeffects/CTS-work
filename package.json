@@ -1,0 +1,25 @@
+{
+  "name": "MadlibApp",
+  "version": "1.0.0",
+  "description": "Basic Madlibs for a website",
+  "main": "scripts/app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soundeffects/MadlibApp"
+  },
+  "keywords": [
+    "Madlib",
+    "React",
+    "App",
+    "Web"
+  ],
+  "author": "soundeffects",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/soundeffects/MadlibApp/issues"
+  },
+  "homepage": "https://github.com/soundeffects/MadlibApp"
+}
